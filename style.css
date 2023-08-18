@@ -1,0 +1,113 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: Roboto, Arial;
+
+}
+
+
+
+body{
+    margin: 0;
+    width: 1440px;
+    height: 1024px;
+}
+
+.cabecalho{
+    background-color: #fff;
+    display: flex;
+    width: 1840px;
+    height: 56px;
+    padding: 0px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid black;
+}
+
+.pesquisar{
+    width: 348px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.perfil img{
+    background-color: #fff;
+    padding: 05px 15px;
+    color: #fff; 
+}
+
+main{
+    display: flex;
+}
+
+.video{
+    margin-left: 75px;
+    margin-top: 84px;
+    margin-right: 413px;
+}
+.video-iframe{
+    width: 952px;
+    height: 573px;
+}
+.video-iframe-details-buttons{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 42px;
+}
+.inscreva-se{
+    width: 159px;   
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #C00;
+}
+
+.video-buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+
+}
+
+
+.videos-section{
+    width: 413px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+.videos-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.videos-container img{
+    margin-top: 20px;
+    margin-right: 15px;
+    width: 160px;
+    height: 90px;
+}
+
+.videos-container h3{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.videos-container p{
+    color: #515151;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 1px;
+
+}
+
